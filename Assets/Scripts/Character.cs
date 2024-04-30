@@ -14,12 +14,11 @@ public class Character : MonoBehaviour
     private Animator animator;
     public int Collections = 0;
 
-    
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

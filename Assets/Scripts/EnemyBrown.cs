@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyControl : MonoBehaviour
+public class EnemyBrown : MonoBehaviour
 {
     public Transform pointA; // Primeiro ponto de destino
     public Transform pointB; // Segundo ponto de destino
